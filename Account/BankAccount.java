@@ -6,7 +6,7 @@ public class BankAccount {
     private String accountHolderName;
     private int balance;
 
-    //using constructor to initalize the private variables
+    //using constructor to initalize the object
     public BankAccount(int accountNumber, String accountHolderName, int balance){
         this.accountNumber = accountNumber;
         this.accountHolderName = accountHolderName;
