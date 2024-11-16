@@ -1,7 +1,7 @@
 package Account;
 
 public class BankAccount {
-    //using private instace variable
+    //using private instance variable
     private int accountNumber;
     private String accountHolderName;
     private int balance;
@@ -24,6 +24,7 @@ public class BankAccount {
         return balance;
     }
    
+    // public method for deposit money in bank account
     public void deposit(int depositAmount){
         if (depositAmount<0) {
             System.out.println("Amount should be positive.");
@@ -32,6 +33,8 @@ public class BankAccount {
             System.out.println("Your amount is deposited.");
         }
     }
+
+    // public method for withdraw money from bank account
     public void withdraw(int withdrawAmount){
         if (withdrawAmount<0) {
             System.out.println("Amount should be positive.");
